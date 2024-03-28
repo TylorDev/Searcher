@@ -1,3 +1,183 @@
 .Home {
-    background-color: blue;
+    background-color: transparent;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 0.9rem;
+    margin-top: 5rem;
+    position: relative;
+
+
+}
+
+
+
+.subtittle {
+    font-size: 0.9rem;
+    font-weight: lighter;
+
+}
+
+.tittle {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.overlay {
+    position: absolute;
+    width: 90%;
+    top: 0;
+
+
+
+
+    img {
+        width: 90%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.inline-img {
+
+    width: 12%;
+    height: 4rem;
+    border-radius: 50px;
+    margin: 0 1rem;
+    transition: all 1s;
+
+    &2 {
+        width: 20%;
+        height: 4rem;
+        border-radius: 50px;
+        user-select: none;
+        margin: 0 1rem;
+        background-color: red;
+        object-position: 50% 30%;
+        transition: all 1s;
+
+        &:hover {
+            width: 25%;
+
+        }
+    }
+
+    &:hover {
+        width: 20%;
+
+    }
+}
+
+
+
+.line {
+    height: 6.5rem;
+    width: 100%;
+    z-index: 999;
+
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.cover {
+
+    width: 35vw;
+
+
+    &:hover {
+
+        .cover-img {
+            width: 27rem;
+        }
+
+        .shadow {
+            left: 40%;
+
+
+        }
+
+    }
+
+}
+
+.cover-group {
+    margin-top: 10rem;
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+
+
+}
+
+.cover-img {
+    transition: all 1s;
+    position: relative;
+    height: 40rem;
+    width: 25rem;
+    border-radius: 250px;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        scale: 1.02;
+
+    }
+
+
+}
+
+.shadow {
+    transition: all 1s;
+    position: absolute;
+    top: 0;
+    left: 45%;
+    z-index: -1;
+    border-radius: 250px;
+    height: 40rem;
+    width: 25rem;
+    scale: 0.74;
+    background: radial-gradient(circle at 48% 0%, rgb(255, 189, 118) 0%, rgb(193, 72, 72) 100%);
+}
+
+
+
+.parrafo1 {
+
+    justify-self: end;
+    width: 10rem;
+
+    height: 7rem;
+}
+
+.parrafo2 {
+    justify-self: start;
+    width: 10rem;
+
+
 }

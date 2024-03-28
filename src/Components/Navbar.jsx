@@ -2,6 +2,8 @@ import navbar from "./../Styles/Components/Navbar.module.scss";
 import { TbLockSquareRounded } from "react-icons/tb";
 import { FaRegUser } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
+import { Link } from "react-router-dom";
+
 /*
 Para usar  css modules usa esta expesiones regulares al terminar de trabajar aqui.
 
@@ -13,18 +15,18 @@ Remplazar = className={navbar.$1}
 export default function Navbar() {
   return (
     <nav className={navbar.navbar}>
-      <div className={navbar.Logo}>
+      <Link to={"/"} className={navbar.Logo}>
         <img src="./logo.png" alt="Logo" />
-      </div>
+      </Link>
       <div className={navbar.Search}>
         <input type="text" placeholder="Search" />
         <FiSearch className={navbar.lupa} />
       </div>
       <div className={navbar.Links}>
-        <a href="#">Explore</a>
-        <a href="#">Stats</a>
-        <a href="#">Resources</a>
-        <a href="#">Create</a>
+        <Link to="#">Explore</Link>
+        <Link to="#">Stats</Link>
+        <Link to="#">Resources</Link>
+        <Link to="#">Create</Link>
       </div>
 
       <div className={navbar.buttons}>
