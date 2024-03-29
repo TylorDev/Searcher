@@ -181,3 +181,41 @@ img {
 
 
 }
+
+
+.logos {
+    overflow: hidden;
+    margin: 15rem 0;
+    display: flex;
+    flex-direction: column;
+
+
+
+    width: 90%;
+    gap: 3rem;
+
+
+    .fila {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        width: 100%;
+
+
+    }
+
+    img {
+
+        flex-shrink: 0;
+        height: 100%;
+        flex: 1;
+        object-fit: contain;
+        transition: all 0.5s;
+
+        &:hover {
+            height: 120%;
+        }
+    }
+}

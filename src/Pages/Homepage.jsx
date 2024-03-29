@@ -52,6 +52,25 @@ export default function Homepage() {
             dedicated to online space the Metaverse world.
           </p>
         </div>
+
+        <div className="logos">
+          <div className="fila">
+            <img src="./logos/1.svg" alt="" />
+            <img src="./logos/2.svg" alt="" />
+            <img src="./logos/3.svg" alt="" />
+            <img src="./logos/4.svg" alt="" />
+            <img src="./logos/5.svg" alt="" />
+            <img src="./logos/6.svg" alt="" />
+          </div>
+          <div className="fila">
+            <img src="./logos/7.svg" alt="" />
+            <img src="./logos/8.svg" alt="" />
+            <img src="./logos/9.svg" alt="" />
+            <img src="./logos/10.svg" alt="" />
+            <img src="./logos/11.svg" alt="" />
+            <img src="./logos/12.svg" alt="" />
+          </div>
+        </div>
       </section>
     </>
   );
