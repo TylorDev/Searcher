@@ -12,7 +12,7 @@ function App() {
           <Route path="/" element={<Homepage></Homepage>}></Route>
           <Route path="*" element={<div> ERROR: 404 </div>}></Route>
         </Routes>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </BrowserRouter>
     </>
   );

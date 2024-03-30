@@ -1,36 +1,60 @@
+import { Link } from "react-router-dom";
 import footer from "./../Styles/Components/Footer.module.scss";
+import {
+  FaInstagram,
+  FaFacebookF,
+  FaTwitter,
+  FaYoutube,
+  FaDiscord,
+} from "react-icons/fa";
+
 export default function Footer() {
   return (
     <>
       <footer className={footer.footer}>
-        <div className={footer.footerColumn}>
-          {/* Columna 1: Logo */}
+        <div className={footer.column}>
           <div className={footer.logo}>
-            {/* Aquí puedes colocar tu logo */}
             <img src="./logo.png" alt="Logo" />
           </div>
+          <p className={footer.frase}>
+            The IMG marketplace with everything for everyone
+          </p>
         </div>
-        <div className={footer.footerColumn}>
-          {/* Columna 2: Market place, My account, Resources, Company, Social media buttons */}
+        <div className={footer.column}>
           <div className={footer.links}>
-            <a href="#">Market Place</a>
-            <a href="#">My Account</a>
-            <a href="#">Resources</a>
-            <a href="#">Company</a>
-            {/* Aquí puedes colocar tus botones de redes sociales */}
-            <div className={footer.socialMedia}>
-              <button>Facebook</button>
-              <button>Twitter</button>
-              <button>Instagram</button>
+            <Link to="/Market">Market Place</Link>
+            <Link to="/Profile">My Account</Link>
+            <Link to="/Explore">Resources</Link>
+            <Link to="/About">Company</Link>
+          </div>
+          <div className={footer.socialMedia}>
+            <button>
+              <FaInstagram />
+            </button>
+            <button>
+              <FaTwitter />
+            </button>
+            <button>
+              <FaFacebookF />
+            </button>
+            <button>
+              <FaDiscord />
+            </button>
+            <button>
+              <FaYoutube />
+            </button>
+          </div>
+        </div>
+        <div className={footer.column}>
+          <div className={footer.contact}>
+            <p className={footer.text}>Stay updated, join our mailing list.</p>
+            <div className={footer.mail}>
+              <input type="email" placeholder="Your Email" />
+              <button>Send</button>
             </div>
           </div>
-        </div>
-        <div className={footer.footerColumn}>
-          {/* Columna 3: Email input, Copyright */}
-          <div className={footer.contact}>
-            <input type="email" placeholder="Your Email" />
-            <p>&copy; 2024 Your Company Name</p>
-          </div>
+
+          <p>&copy; 2024 Your Company Name</p>
         </div>
       </footer>
     </>
