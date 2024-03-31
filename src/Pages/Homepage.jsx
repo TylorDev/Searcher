@@ -1,4 +1,5 @@
 import "./../Styles/Pages/Home.scss";
+import Explore from "./Explore";
 export default function Homepage() {
   return (
     <>
@@ -71,6 +72,7 @@ export default function Homepage() {
             <img src="./logos/12.svg" alt="" />
           </div>
         </div>
+        <Explore></Explore>
       </section>
     </>
   );
