@@ -23,7 +23,7 @@ export default function Navbar() {
         <FiSearch className={navbar.lupa} />
       </div>
       <div className={navbar.Links}>
-        <Link to="#">Explore</Link>
+        <Link to="/Explore">Explore</Link>
         <Link to="#">Stats</Link>
         <Link to="#">Resources</Link>
         <Link to="#">Create</Link>
