@@ -1,0 +1,19 @@
+<svg width="1609" height="934" viewBox="0 0 1609 934" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1501 832C1501 844.274 1491.7 854 1480.5 854C1469.3 854 1460 844.274 1460 832C1460 819.726 1469.3 810 1480.5 810C1491.7 810 1501 819.726 1501 832Z" stroke="white" stroke-width="4"/>
+<path d="M1607 70.5C1607 97.7498 1583.81 120 1555 120C1526.19 120 1503 97.7498 1503 70.5C1503 43.2502 1526.19 21 1555 21C1583.81 21 1607 43.2502 1607 70.5Z" stroke="white" stroke-width="4"/>
+<rect opacity="0.54" x="2" y="357" width="150" height="467" rx="73" stroke="white" stroke-width="4"/>
+<rect opacity="0.54" x="259" y="600" width="99" height="43" rx="21.5" stroke="white" stroke-width="4"/>
+<path d="M386.148 879.16L386 879.183C393.267 881.815 408.46 883.629 418.7 890.117C430.206 897.407 439.289 921.194 440.5 933.951C443.73 925.446 450.794 902.363 456.244 895.681C462.169 888.417 483.091 881.613 495 879.183C485.311 876.145 473.2 875.634 456.85 864.093C449.158 858.662 442.519 834.732 440.5 824C439.087 834.327 434.444 854.981 422.939 865.915C413.432 874.95 394.114 877.931 386.148 879.16Z" fill="white"/>
+<circle cx="430" cy="72" r="72" fill="url(#paint0_radial_44_2)"/>
+<path d="M396.092 71.104L396 71.1169C400.533 72.6013 410.012 73.6244 416.4 77.2827C423.578 81.3932 429.244 94.8066 430 102C432.015 97.2044 436.422 84.1878 439.822 80.4199C443.518 76.3238 456.57 72.4871 464 71.1169C457.956 69.4042 450.4 69.116 440.2 62.6077C435.401 59.5457 431.259 46.0516 430 40C429.119 45.8232 426.222 57.4696 419.044 63.6354C413.113 68.7303 401.062 70.411 396.092 71.104Z" fill="url(#paint1_angular_44_2)"/>
+<defs>
+<radialGradient id="paint0_radial_44_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(430 69.5) rotate(-118.496) scale(59.7369 62.8673)">
+<stop stop-color="#FAA072"/>
+<stop offset="0.96" stop-color="#FE944D"/>
+</radialGradient>
+<radialGradient id="paint1_angular_44_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(429 71) rotate(72.8241) scale(28.7837 24.8437)">
+<stop stop-color="#7C79A1"/>
+<stop offset="1" stop-color="#F7F0FD"/>
+</radialGradient>
+</defs>
+</svg>
