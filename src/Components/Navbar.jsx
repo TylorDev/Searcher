@@ -15,7 +15,7 @@ Remplazar = className={navbar.$1}
 export default function Navbar() {
   return (
     <nav className={navbar.navbar}>
-      <Link to={"/"} className={navbar.Logo}>
+      <Link to={"/Searcher/"} className={navbar.Logo}>
         <img src="./logo.png" alt="Logo" />
       </Link>
       <div className={navbar.Search}>
