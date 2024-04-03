@@ -24,9 +24,9 @@ export default function Navbar() {
       </div>
       <div className={navbar.Links}>
         <Link to="/Explore">Explore</Link>
-        <Link to="#">Stats</Link>
-        <Link to="#">Resources</Link>
-        <Link to="#">Create</Link>
+        <Link to="/Stats">Stats</Link>
+        <Link to="Resources">Resources</Link>
+        <Link to="/Create">Create</Link>
       </div>
 
       <div className={navbar.buttons}>

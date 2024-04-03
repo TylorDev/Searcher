@@ -1,9 +1,12 @@
 /* eslint-disable react/prop-types */
 import "./../Styles/Pages/Explore.scss";
 import { Slider } from "./../Components/Slider.jsx";
-
 import { IoSparkles } from "react-icons/io5";
 import Posts from "./../Components/Posts";
+import { Leaderboard } from "./Leaderboard.jsx";
+import { Resources } from "./Resources.jsx";
+import { Creator } from "./Creator.jsx";
+
 function Explore() {
   return (
     <section className="Explore">
@@ -27,6 +30,12 @@ function Explore() {
       <div>
         <Posts></Posts>
       </div>
+
+      <Leaderboard></Leaderboard>
+
+      <Creator></Creator>
+
+      <Resources></Resources>
     </section>
   );
 }

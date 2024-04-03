@@ -1,4 +1,16 @@
 [
+  {
+    "fecha": null,
+    "categoria": "All categories",
+    "precio": null,
+    "img": null,
+    "titulo": null,
+    "autor": {
+      "nombre": null,
+      "verificado": false
+    },
+    "likes": null
+  },
     {
       "fecha": "2024-03-31",
       "categoria": "Arte",
@@ -15,7 +27,7 @@
       "fecha": "2024-03-30",
       "categoria": "Fotografía",
       "precio": 75,
-      "img": "https://i.pinimg.com/564x/49/5e/d5/495ed531e962926e142e519d3a01cfb3.jpg",
+      "img": "https://i.pinimg.com/564x/b3/f7/ef/b3f7ef5acc1e648a529c400aa6258b4b.jpg",
       "titulo": "Atardecer en la playa",
       "autor": {
         "nombre": "Carlos",
@@ -25,7 +37,7 @@
     },
     {
       "fecha": "2024-03-29",
-      "categoria": "Diseño",
+      "categoria": "Game",
       "precio": 40,
       "img": "https://i.pinimg.com/564x/b2/2e/93/b22e9374504c0a18fa83c12fec201eaf.jpg",
       "titulo": "Ilustración digital",
@@ -37,7 +49,7 @@
     },
     {
       "fecha": "2024-03-28",
-      "categoria": "Moda",
+ "categoria": "Game",
       "precio": 90,
       "img": "https://i.pinimg.com/564x/96/ab/29/96ab29099f5292cf29c30699d38a647e.jpg",
       "titulo": "Vestido de gala",
@@ -49,7 +61,7 @@
     },
     {
       "fecha": "2024-03-27",
-      "categoria": "Ilustración",
+      "categoria": "Anime",
       "precio": 60,
       "img": "https://i.pinimg.com/564x/7c/1d/d8/7c1dd8c1656b929fda7286ab7ee60199.jpg",
       "titulo": "Retrato en blanco y negro",
@@ -61,7 +73,7 @@
     },
     {
       "fecha": "2024-03-26",
-      "categoria": "Arquitectura",
+   "categoria": "Anime",
       "precio": 120,
       "img": "https://i.pinimg.com/564x/29/f0/4b/29f04b70ccfcb15be2395aecfab0c6e4.jpg",
       "titulo": "Edificio modernista",
@@ -94,6 +106,151 @@
         "verificado": true
       },
       "likes": 110
-    }
+    },
+    {
+      "fecha": "2024-03-24",
+      "categoria": "Fotografía",
+      "precio": 65,
+      "img": "https://i.pinimg.com/564x/92/2b/4c/922b4c085a3f826b554fb9f642b07e80.jpg",
+      "titulo": "Paisaje montañoso",
+      "autor": {
+          "nombre": "Sara",
+          "verificado": true
+      },
+      "likes": 110
+  },
+  {
+      "fecha": "2024-03-25",
+      "categoria": "Arte",
+      "precio": 50,
+      "img": "https://i.pinimg.com/564x/ee/9a/67/ee9a675a209eec0cbde9d0c93319aeaa.jpg",
+      "titulo": "Retrato en acuarela",
+      "autor": {
+          "nombre": "Juan",
+          "verificado": false
+      },
+      "likes": 75
+  },
+  {
+      "fecha": "2024-03-26",
+      "categoria": "Arte",
+      "precio": 80,
+      "img": "https://i.pinimg.com/736x/bf/59/37/bf59374ceac0c1c4d89ae3ee7d9c7b01.jpg",
+      "titulo": "Logotipo minimalista",
+      "autor": {
+          "nombre": "Carlos",
+          "verificado": true
+      },
+      "likes": 90
+  },
+  {
+      "fecha": "2024-03-27",
+      "categoria": "Game",
+      "precio": 120,
+      "img": "https://i.pinimg.com/564x/46/e8/b8/46e8b8d45509d80c5f6f7fe08165ce62.jpg",
+      "titulo": "Vestido de alta costura",
+      "autor": {
+          "nombre": "María",
+          "verificado": false
+      },
+      "likes": 60
+  },
+  {
+      "fecha": "2024-03-28",
+      "categoria": "Fotografía",
+      "precio": 95,
+      "img": "https://i.pinimg.com/564x/83/bb/d8/83bbd894cd5e0fd85841b235f9a7acdb.jpg",
+      "titulo": "Amanecer en la playa",
+      "autor": {
+          "nombre": "Eduardo",
+          "verificado": true
+      },
+      "likes": 105
+  },
+  {
+      "fecha": "2024-03-29",
+      "categoria": "Anime",
+      "precio": 45,
+      "img": "https://i.pinimg.com/564x/09/39/d3/0939d3aa463cb370aee55553ae5b3044.jpg",
+      "titulo": "Plato de sushi",
+      "autor": {
+          "nombre": "Ana",
+          "verificado": false
+      },
+      "likes": 85
+  },
+  {
+      "fecha": "2024-03-30",
+      "categoria": "Arte",
+      "precio": 70,
+      "img": "https://i.pinimg.com/564x/ba/8c/48/ba8c48c191507d3ff8368ca013befb67.jpg",
+      "titulo": "Musica del mal",
+      "autor": {
+          "nombre": "David",
+          "verificado": true
+      },
+      "likes": 120
+  },
+  {
+      "fecha": "2024-03-31",
+      "categoria": "Fotografía",
+      "precio": 55,
+      "img": "https://i.pinimg.com/564x/e5/e4/ad/e5e4ad22ca0c7b3cbd8d1eb802006523.jpg",
+      "titulo": "Bosque en otoño",
+      "autor": {
+          "nombre": "Laura",
+          "verificado": false
+      },
+      "likes": 95
+  },
+  {
+      "fecha": "2024-04-01",
+      "categoria": "Arte",
+      "precio": 75,
+      "img": "https://i.pinimg.com/736x/22/f9/6e/22f96ece535fde69438e7573121ea18b.jpg",
+      "titulo": "Partido de fútbol",
+      "autor": {
+          "nombre": "Pedro",
+          "verificado": true
+      },
+      "likes": 80
+  },
+  {
+      "fecha": "2024-04-02",
+      "categoria": "Game",
+      "precio": 100,
+      "img": "https://i.pinimg.com/564x/f0/30/c8/f030c8c0c2f44f17e225df0564a7f0ff.jpg",
+      "titulo": "Último modelo de smartphone",
+      "autor": {
+          "nombre": "Miguel",
+          "verificado": false
+      },
+      "likes": 70
+  },
+  {
+    "fecha": "2024-04-03",
+ "categoria": "Anime",
+    "precio": 85,
+    "img": "https://i.pinimg.com/564x/27/bb/e1/27bbe193b6c14adb508ef02d829a8ef5.jpg",
+    "titulo": "Edificio modernista",
+    "autor": {
+        "nombre": "Elena",
+        "verificado": true
+    },
+    "likes": 95
+},
+{
+    "fecha": "2024-04-04",
+    "categoria": "Game",
+    "precio": 60,
+    "img": "https://i.pinimg.com/564x/fc/df/01/fcdf014378148f2ec99e0e1dd48b79a6.jpg",
+    "titulo": "Cartel de película clásica",
+    "autor": {
+        "nombre": "Javier",
+        "verificado": false
+    },
+    "likes": 110
+}
+    
   ]
   
