@@ -9,13 +9,13 @@ export default function Homepage() {
             <img src="overlay1.svg" alt="" />
           </div>
           <h2 className="subtittle">
-            The images marketplace with everything for everyone
+            s The images marketplace with everything for everyone
           </h2>
           <h2 className="line">
             Discover
             <img
               className="inline-img"
-              src="https://i.pinimg.com/564x/f2/b8/7f/f2b87f0a2d2fe311b1fe488eb9462e6f.jpg"
+              src="https://i.pinimg.com/originals/92/95/d3/9295d3dd240a7571ec81ae353ec46d1c.jpg"
             ></img>
             Collect
           </h2>
@@ -23,7 +23,7 @@ export default function Homepage() {
             and Sell
             <img
               className="inline-img2"
-              src="https://i.pinimg.com/564x/53/1b/d7/531bd780537c026d516ce8099e022d0c.jpg"
+              src="https://i.pinimg.com/564x/3a/0b/00/3a0b0037615eb2da9e6c8cdfb6cf6a27.jpg"
             ></img>
           </h2>
           <h2 className="line">Remarkable IMGS.</h2>
@@ -31,7 +31,7 @@ export default function Homepage() {
 
         <div className="cover-group">
           <div className="overlay">
-            <img src="overlay2.svg" alt="" />
+            <img src="./overlay2.svg" alt="" />
           </div>
           <p className="parrafo1" id="one">
             Find digital artwork by professionals and discover the true meaning
@@ -41,7 +41,7 @@ export default function Homepage() {
           <div className="cover">
             <div className="cover-img">
               <img
-                src="https://cdna.artstation.com/p/assets/images/images/003/476/658/large/ilya-kuvshinov-white-gloves.jpg?1474109682"
+                src="https://cdn.donmai.us/sample/c4/4e/__yoru_and_tanaka_chainsaw_man_and_3_more_drawn_by_dinhosaur__sample-c44e0c94ceb5748baff6702ebc618405.jpg"
                 alt=""
               />
             </div>

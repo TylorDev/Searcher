@@ -1,10 +1,17 @@
 .Resources {
+    background-color: #15141A;
+    padding: 0 5rem;
+
+    .resources-conteiner {
+        display: grid;
 
 
+
+    }
 
     div {
         display: flex;
-        background-color: #15141A;
+
         align-items: center;
         justify-content: space-between;
         color: #A7914B;
@@ -18,9 +25,10 @@
         align-items: start;
         gap: 4rem;
 
+
         justify-items: center;
 
-        border-top: 1px solid white;
+        border-top: 2px solid rgba(255, 255, 255, 0.238);
 
 
 

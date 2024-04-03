@@ -59,6 +59,10 @@
     margin: 0 1rem;
     transition: all 1s;
 
+    img {
+        object-position: center;
+    }
+
     &2 {
         width: 20%;
         height: 4rem;
@@ -66,7 +70,7 @@
         user-select: none;
         margin: 0 1rem;
         background-color: red;
-        object-position: 50% 30%;
+        object-position: 50% 10%;
         transition: all 1s;
 
         &:hover {
@@ -95,6 +99,7 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center 30%;
 }
 
 
@@ -162,7 +167,7 @@ img {
     height: 40rem;
     width: 25rem;
     scale: 0.74;
-    background: radial-gradient(circle at 48% 0%, rgb(255, 189, 118) 0%, rgb(193, 72, 72) 100%);
+    background: radial-gradient(circle at 48% 0%, #DE1418 0%, rgb(52, 2, 2) 100%);
 }
 
 
